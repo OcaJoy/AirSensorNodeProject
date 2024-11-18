@@ -1,0 +1,19 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore these file types
+*.keras
+*.npy
+*.csv
+*.joblib
+
+# Ignore __pycache__ in main folder and subfolders
+__pycache__/
+CNN-RNN Models/__pycache__/
+Noise Filtering/__pycache__/
+
+# Ignore specific subfolders in CNN-RNN Models
+CNN-RNN Models/tuning_dir/
+
+# Ignore specific files in CNN-RNN Models folder
+CNN-RNN Models/CNN_LSTM_TEST.py
